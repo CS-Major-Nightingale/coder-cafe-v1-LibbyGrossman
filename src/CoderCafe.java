@@ -64,17 +64,13 @@ public class CoderCafe {
         System.out.println("-\t\t\t\t\t\t\t\t\t\t\t-");
         System.out.printf("-\tSubtotal: \t\t\t\t$ %.2f\t\t\t-", subtotal);
         System.out.println(" ");
-
         System.out.printf("-\tSales Tax: \t\t\t\t$ %.2f\t\t\t-", roundedTax);
         System.out.println(" ");
-
         System.out.printf("-\tService Fee: \t\t\t$ %.2f\t\t\t-", serviceFee);
         System.out.println(" ");
-
         System.out.printf("-\tCoder Cafe Fee: \t\t$ %.2f\t\t\t-", roundedCafeFee);
         System.out.println(" ");
         System.out.println("-\t\t\t\t\t\t\t\t\t\t\t-");
-
         System.out.printf("-\tTotal: \t\t\t\t\t$ %.2f\t\t\t-", total);
         System.out.println(" ");
         System.out.println("-\t\t\t\t\t\t\t\t\t\t\t-");
@@ -83,7 +79,4 @@ public class CoderCafe {
         System.out.println("-\t\t\tThank you, come again!\t\t\t-");
         System.out.println("---------------------------------------------");
         }
-
-
-
     }
